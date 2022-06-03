@@ -13,4 +13,4 @@ Make you're logged into GitHub under your account.
 
 Click the Green "Use this template" button. This will copy the entire website and make your own version of the repository.
 
-![Use Template Button](images/useTemplateGithub.png)
+![Use Template Button](Images/useTemplateGithub.png)
