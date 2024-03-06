@@ -17,4 +17,9 @@ func _ready():
 
 
 func _on_Start_Game_Button_button_up():
+# warning-ignore:return_value_discarded
 	get_tree().change_scene("res://MainGame/MainGame.tscn")
+
+
+func _on_Quit_button_up():
+	print ("erm...")
