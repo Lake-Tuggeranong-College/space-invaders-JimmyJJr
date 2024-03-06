@@ -23,3 +23,8 @@ func _on_Start_Game_Button_button_up():
 
 func _on_Quit_button_up():
 	print ("erm...")
+	
+
+
+func _on_Options_button_up():
+	pass # Replace with function body.

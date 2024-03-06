@@ -18,3 +18,6 @@ func _ready():
 
 func _process(delta):
 	$HUD/CurrentScore.text = str(GlobalVariables.scoringInformation["currentScore"])
+	if "128" in str(GlobalVariables.scoringInformation["currentScore"]) :
+		print("Level 1 Complete")
+		get_tree().change_scene("res://Menu/Menu.tscn")
