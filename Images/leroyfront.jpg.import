@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tie.png-98a1f574e2b6e56c8b27c3eeddca894b.stex"
+path="res://.import/leroyfront.jpg-43b294099ffd782f81decf3c7a9a23df.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Images/tie.png"
-dest_files=[ "res://.import/tie.png-98a1f574e2b6e56c8b27c3eeddca894b.stex" ]
+source_file="res://Images/leroyfront.jpg"
+dest_files=[ "res://.import/leroyfront.jpg-43b294099ffd782f81decf3c7a9a23df.stex" ]
 
 [params]
 

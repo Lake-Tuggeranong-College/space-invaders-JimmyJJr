@@ -1,7 +1,10 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://Images/the_razor_crest___top_view_by_superherotimefan_deaq55q-pre.png" type="Texture" id=1]
 [ext_resource path="res://Player/Player.gd" type="Script" id=2]
+
+[sub_resource type="StreamTexture" id=3]
+flags = 4
+load_path = "res://.import/leroyfront.jpg-43b294099ffd782f81decf3c7a9a23df.stex"
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 28.2527, 19.3905 )
@@ -13,8 +16,8 @@ extents = Vector2( 39.9933, 52.9882 )
 script = ExtResource( 2 )
 
 [node name="Sprite" type="Sprite" parent="."]
-scale = Vector2( 0.1, 0.1 )
-texture = ExtResource( 1 )
+scale = Vector2( 0.2, 0.2 )
+texture = SubResource( 3 )
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 position = Vector2( -1.06879, 8.55011 )

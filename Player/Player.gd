@@ -20,6 +20,10 @@ func _process(delta):
 			get_tree().get_root().add_child(bulletInstance)
 func _physics_process(delta):
 	if Input.is_action_pressed("ui_left"):
-		move_and_collide(Vector2(-movement_speed * delta, 0))
+		if position.x > 50:
+			move_and_collide(Vector2(-movement_speed * delta, 0))
 	if Input.is_action_pressed("ui_right"):
-		move_and_collide(Vector2(movement_speed * delta, 0))
+		if position.x < 1230:
+			move_and_collide(Vector2(movement_speed * delta, 0))
+	if Input.is_action_pressed("ui_up"):
+		get_tree().change_scene("")
