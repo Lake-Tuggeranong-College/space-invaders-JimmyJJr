@@ -26,4 +26,4 @@ func _physics_process(delta):
 		if position.x < 1230:
 			move_and_collide(Vector2(movement_speed * delta, 0))
 	if Input.is_action_pressed("ui_up"):
-		get_tree().change_scene("")
+		get_tree().change_scene("res://WinScene/WinScene.tscn")

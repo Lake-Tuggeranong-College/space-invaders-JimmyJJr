@@ -15,9 +15,10 @@ func _ready():
 		currentTimer = currentTimer - 1
 		print(currentTimer)
 	print("womp womp")
+	get_tree().change_scene("res://LoseScene/LoseScene.tscn")
 
 func _process(delta):
 	$HUD/CurrentScore.text = str(GlobalVariables.scoringInformation["currentScore"])
 	if "128" in str(GlobalVariables.scoringInformation["currentScore"]) :
 		print("Level 1 Complete")
-		get_tree().change_scene("res://Menu/Menu.tscn")
+		get_tree().change_scene("res://WinScene/WinScene.tscn")

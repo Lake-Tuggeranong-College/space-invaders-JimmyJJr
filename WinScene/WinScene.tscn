@@ -1,0 +1,16 @@
+[gd_scene load_steps=2 format=2]
+
+[ext_resource path="res://WinScene/Button.gd" type="Script" id=1]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Button" type="Button" parent="."]
+margin_left = 542.0
+margin_top = 131.0
+margin_right = 792.0
+margin_bottom = 310.0
+rect_scale = Vector2( 2, 2 )
+text = "your did it !"
+script = ExtResource( 1 )
+
+[connection signal="button_up" from="Button" to="Button" method="_on_Button_button_up"]
