@@ -63,17 +63,17 @@ size_flags_vertical = 3
 
 [node name="Start Game Button" type="Button" parent="Layout/Main/Buttons"]
 margin_right = 776.0
-margin_bottom = 280.0
+margin_bottom = 261.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
-size_flags_stretch_ratio = 2.0
+size_flags_stretch_ratio = 1.75
 custom_fonts/font = ExtResource( 3 )
 text = "Start Game :3"
 
 [node name="Options" type="Button" parent="Layout/Main/Buttons"]
-margin_top = 284.0
+margin_top = 265.0
 margin_right = 776.0
-margin_bottom = 424.0
+margin_bottom = 415.0
 size_flags_horizontal = 3
 size_flags_vertical = 3
 custom_fonts/font = ExtResource( 3 )
@@ -83,7 +83,7 @@ __meta__ = {
 }
 
 [node name="Quit" type="Button" parent="Layout/Main/Buttons"]
-margin_top = 428.0
+margin_top = 419.0
 margin_right = 776.0
 margin_bottom = 569.0
 size_flags_horizontal = 3
