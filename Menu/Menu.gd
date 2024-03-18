@@ -27,4 +27,5 @@ func _on_Quit_button_up():
 
 
 func _on_Options_button_up():
-	get_tree().change_scene("res://Options.tscn")
+	get_tree().change_scene("res://Options/Options.tscn")
+	print ("oughh... b")
