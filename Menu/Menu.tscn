@@ -99,7 +99,7 @@ margin_bottom = 720.0
 [node name="Label" type="Label" parent="Layout/Credits"]
 margin_right = 72.0
 margin_bottom = 14.0
-text = "Alpha 1.0.0"
+text = "Alpha 1.0.5"
 
 [connection signal="button_up" from="Layout/Main/Buttons/Start Game Button" to="." method="_on_Start_Game_Button_button_up"]
 [connection signal="button_up" from="Layout/Main/Buttons/Options" to="." method="_on_Options_button_up"]

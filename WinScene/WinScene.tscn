@@ -2,7 +2,7 @@
 
 [ext_resource path="res://WinScene/Button.gd" type="Script" id=1]
 
-[node name="Node2D" type="Node2D"]
+[node name="WinScene" type="Control"]
 
 [node name="Button" type="Button" parent="."]
 margin_left = 542.0
